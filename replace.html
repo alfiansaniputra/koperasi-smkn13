@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koperasi Smkn13-Bdg</title>
+      <link rel="stylesheet" href="assets/css/BootLize.min.css">
+      <link rel="stylesheet" href="assets/fonts/material-icons.css">
+
+
+</head>
+<body>
+  <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+        <div class="jarak">
+          <a href="#" class="brand-logo">Koperasi</a>
+           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">view_headline</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+              <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+              <li><a href="#"><i class="material-icons">account_circle</i></a></li>
+            </ul> 
+        </div>
+            <!--=======end DEKSTOP======-->
+            <ul class="side-nav" id="mobile-demo">
+              <li class="user-details" id="bgandr">
+              <div class="row">
+                  <div class="col col s4 m4 l4">
+                    <img  src="assets/img/log.jpg" class='circle responsive-img valign profile-image' >
+                  </div>
+                  <div class="col col s8 m8 l8">
+                      
+                      <a class="btn-flat dropdown-button" href="#" data-activates="profile-dropdown">
+                      <i class='small material-icons right'>keyboard_arrow_down</i></a>
+                      <ul id="profile-dropdown" class="dropdown-content">
+                          <li><a href="#"><i class="mdi-action-face-unlock"></i>Profile</a></li>
+                          <li><a href="#"><i class="mdi-communication-live-help"></i>Logout</a></li>
+                      </ul>
+                  </div>
+              </div>
+              </li>
+              <a href="#">Home</a>
+              <a href="#">Galery</a>
+              <a href="#">Profil</a>
+              <a href="#">Mailbox <span class="new badge">4</span></a>
+              <a href="#">Shop</a>
+            </ul>
+            <!--=======end mobile=======-->
+        
+        </div>
+      </nav>
+  </div>
+  <div class="row">
+  <div class="col l6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem totam facere ex vero, dolorum sed rerum, voluptates sapiente tempore doloribus porro voluptatibus voluptate assumenda non possimus, maxime cumque perspiciatis excepturi  .  </div></div>
+<!--====================NAVBAR====================-->
+   <!-- isi dropdown -->
+
+<!-- akhir isi drop down -->
+
+<script src="assets/js/search.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown-button").dropdown();
+    $(".button-collapse").sideNav();
+});
+</script>
+
+
+
+
+
+
+
+
+</body>
+<!--manggil js-->
+    <script src="assets/js/jquery-3.1.0.min.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script>
+    var $toastContent = $('<span>Selamat Datang di Koperasi SMKN 13 bandung</span>');
+    Materialize.toast($toastContent, 3700); 
+    </script>
+    <script>
+        $(document).ready(function(){
+
+          $(".button-collapse").sideNav();
+          $('.parallax').parallax();
+          $(".dropdown-button").dropdown();
+        });
+    </script>
+
+    <script>
+       $(document).ready(function(){
+         // MODAL //
+        $("#dialog-4").jDialog({
+            skinClassName: 'demo',
+            animationType: 'flip',
+            allowOverlay: false
+        });
+         // AKHIR MODAL //
+
+        $('.scrollspy').scrollSpy();
+    });
+    </script>
+
+</html>

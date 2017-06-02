@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#logoz{
+	margin: 0px 0px 0px 0px;
+}
+#paralax{
+  margin: 0px 0px 0px 0px;
+}
+#welc{
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+    background: transparent;
+    border-top: 7px solid;
+}
+#bgandr{
+  background-image: url(../img/13.jpg);
+  color: black;
+}
+#a{
+    background-color: transparent;
+    margin: -20px 0px 0px 0px;
+}
+#ganjelkiri{
+  float: left;
+  width: 50%;
+}
+#cvrparalax{
+    background-color: #11152F;
+    margin: -20px 0px 0px 0px;
+    opacity: 0.5;
+    height: 550px;
+    float: left;
+  
+}
+.isi{
+    margin: 10px;
+}
+@media (max-width: 500px) {
+  #cvparalax {
+    position: absolute;
+    margin: 100px;
+  }
+}
+
+
+/* navbar ALFIAN*/
+#searchbar{
+  
+}
+#pilihansize{
+  margin: 0px 0px;
+}
+/* FOOTER ALFIAN*/
+#warnafooter{
+    background: #2f3238;
+    margin: 0px 0px 0px 0px;
+}
+spanbiru{
+    color: #006db7;
+}
+#footer{
+    margin:0pc 60px;
+    border-top: 3px solid white;
+}
+#kontakbawah{
+    text-align: justify;
+}
+#kontakbawahkiri{
+    text-align: center;
+}
+#box3{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+#ikonfooter{
+    font-size: 20px;
+}
+#input{
+    width: 250px;
+}
+#inputsubmit{
+    width: 15px;
+}
+/* END FOOTER ALFIAN*/
+
+.brand-logo{
+  margin-bottom: 20px;
+}
+
+#andlogo{
+  background-image: url(../img/x.jpg);
+}

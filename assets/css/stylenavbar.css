@@ -1,0 +1,52 @@
+/* NAVBAR */
+nav {
+    background-color: #263238 !important; 
+    border-bottom: 2px solid #00FFDB;
+}
+.brand-logo {
+	transition: 0.4s;
+}
+.brand-logo:hover {
+	transition: 0.4s;
+	opacity: 0.4;
+}
+nav .container-material a{
+	transition: 0.7s;
+}
+nav .container-material a:hover {
+	opacity: 0.4;
+	transition: 0.4s;
+}
+
+#divdrop {
+    margin-top: 0px;
+}
+#divdrop img{
+    transition: 0.7s;
+}
+#divdrop img:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+#divdrop ul li {
+    margin-bottom: -20px;
+
+    transition: 0.4s;
+}
+#divdrop ul  li:hover {
+    background-color: transparent;
+    transition: 0.7s;
+}
+#laindrop{
+    background-color: #464b50;
+}
+.warnaslide {
+    background-color: #333333;
+}
+.jarak{
+    padding: 0px 90px;
+}
+#butnap{
+    background: #01365e;
+    color: red;
+}
